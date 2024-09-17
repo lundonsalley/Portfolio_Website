@@ -1,11 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="Home" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" href="homestyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
 </head>
-<body>
-  <h1>Shell</h1>
-</body>
+<html>
+    <body>
+        <canvas id="bg"></canvas>
+        <div class="nav-bar">
+            <a href="index.html">HOME</a>
+            <div class="dropdown">
+                <button class="dropbtn">PORTFOLIOS</button>
+                <div class="dropdown-content">
+                    <a id="classBtn">CLASSES &#9207;</a>
+                    <div id="classes" style="display:none;">
+                        <div style="left: 15%">
+                            <a href="COM122/index.html">COM122</a>
+                        </div>
+                    </div>
+                    <a href="#">PROJECTS</a>
+                </div>
+            </div>
+            <div class="mail" style="width:100%; display:flex; justify-content: flex-end;">
+                <a><img style="margin:15px"width="62" height="43" src="files/img/mail.jpeg"></a>
+            </div>
+            <div class="contact" style="display:none;">
+                <div id="subcontact">
+                    <p>You can contact me at: <a href="mailto: lundonsalley@gmail.com">lundonsalley@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+        
+    </body>
 </html>
