@@ -49,10 +49,5 @@ $(document).ready(function(){
     
   });
 
-
-
-
-  
-
 });
 
