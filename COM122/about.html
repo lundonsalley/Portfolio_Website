@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="Home" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="cherry-blossoms.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<html>
+    <body>
+        <canvas id="cherry-blossoms"></canvas>
+        <div style="display:none">
+          <img id="branch1" src="files/Sakura_branch.png">
+          <img id="branch2" src="files/Sakura_branch2.png">
+          <img id="blossom" src="files/Sakura_blossom.png">
+        </div>
+        <div class="nav-bar">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Projects</button>
+                <div class="dropdown-content">
+                    <a href="#">Rhetorical Analysis</a>
+                </div>
+            </div>
+            <a href="#">About Me</a>
+            <div class="mail" style="width:100%; display:flex; justify-content: flex-end;">
+                <a href="../index.html"><img style="margin:15px; filter: invert(1);"width="50" height="50" src="files/home.png" alt="home"></a>
+            </div>
+        </div>
+
+        <div class="content">
+          <h1 class="line" id="l0" style="color:rgb(218, 73, 150)">Hello!</h1>
+          <h2 class="line" id="l1" style="color:rgb(218, 73, 150)"></h2>
+          <h2 class="line" id="l2" style="color:rgb(218, 73, 150)"></h2>
+          <h2 class="line" id="l3" style="color:rgb(218, 73, 150)"></h2>
+          <h2 class="line" id="l4" style="color:rgb(218, 73, 150)"></h2>
+          <h2 class="line" id="l5" style="color:rgb(218, 73, 150)"></h2>
+        </div>
+        <footer class="skip">
+          <img id="skip" style="filter: invert(1);" width="50" height="50" src="files/skip.png" alt="skip">
+        </footer>
+
+    </body>
+</html>

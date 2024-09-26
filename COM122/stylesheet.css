@@ -190,3 +190,24 @@
   src: url(files/fonts/digital-7.ttf);
 }
 
+.content{
+  position: relative;
+  width: auto;
+  height: auto;
+  margin: 5% 10% 5% 10%;
+  padding: 2.5%;
+  background-color: rgba(54, 54, 54, 0.212); /*delete this*/ 
+}
+
+.line{
+  text-wrap:pretty;
+}
+
+.skip{
+  position:fixed;
+  bottom:10px;
+  right:10px;
+  size:auto;
+  display:flex;
+  justify-content: right;
+}
