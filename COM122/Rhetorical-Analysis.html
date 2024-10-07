@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="Home" content="width=device-width, initial-scale=1">
+  <title>Home</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="docStyle" href="files/docStyle.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="home.js"></script>
+  <script type="text/javascript" src="RA.js"></script>
+</head>
+<html>
+
+<body>
+  <canvas id="cherry-blossoms"></canvas>
+  <div class="nav-bar">
+    <a href="index.html">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">Projects</button>
+      <div class="dropdown-content">
+        <a href="Rhetorical-Analysis.html">Rhetorical Analysis</a>
+      </div>
+    </div>
+    <a href="about.html">About Me</a>
+    <div class="mail" style="width:100%; display:flex; justify-content: flex-end;">
+      <a href="../index.html"><img style="margin:15px; filter: invert(1);" width="50" height="50"
+          src="files/home.png"></a>
+    </div>
+  </div>
+  <div class="text-wrapper" style="text-wrap:pretty;">
+    <div style="display:flex;justify-content:space-between;align-items:center;padding:10px">
+      <img id="audioPNG" src="files/audio.png" width="50px" height="50px" alt="audio" style="filter:invert(1)">
+      <img id="videoPNG"src="files/video.png" width="50px" height="50px" alt="audio" style="filter:invert(1)">
+    </div>
+    <div id="audio" style="display:none;justify-content:center;align-items:center;padding:10px">
+      <audio controls>
+        <source src="files/audio.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+    </div>
+    <div id="video" style="display:none;justify-content:center;align-items:center;padding:10px">
+      <video width="100%" height="auto" controls> <!--add size here-->
+        <source src="files/video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    
+
+
+    <div style="display:flex;justify-content:center;align-items:center;"><p class="c6"><span class="c4">COM122 Rhetorical Analysis - </span><span class="c4 c10">&quot;Prequel&quot;</span><span
+        class="c4">&nbsp;by Fall</span><span class="c4">ing in Reverse</span></p>
+        </div>
+    <p class="c5"><span class="c4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+        class="c4">Falling</span><span class="c4">&nbsp;in Reverse, a popular rock band from the 2000s has become one of
+        the most discussed bands in the media due to their lead singer Ronnie Radke&rsquo;s controversies, incredible
+        vocal ranges, seamless multi-genre songs, and the band&rsquo;s utterly stunning music videos.
+        &quot;Prequel&quot;</span><span class="c4">, the opening of Falling in Reverse&rsquo;s album </span><span
+        class="c0">Popular Monster</span><span class="c4">, sets the mood for the following songs, showcasing
+        Radke&rsquo;s rage and fed-up attitude. Instead of trying to write a vague and generic song that any fan could
+        relate to, Radke chose to </span><span class="c4">write &quot;Prequel&quot;</span><span class="c3">&nbsp;in the
+        form of a warning message. A warning message to show the world how blind they&rsquo;ve become, how they follow
+        without thinking, how they listen to the voice of authority without question, and how dangerous the lack of
+        individuality has become. </span></p>
+    <p class="c5 c7"><span class="c4">Ronnie</span><span class="c4">&nbsp;Radke&rsquo;s rage was born from his
+      </span><span class="c4">incident</span><span class="c3">&nbsp;at Six Flags and his expulsion from his original
+        band, Escape the Fate. During a concert at Six Flags, Radke threw a microphone stand into the crowd, just as he
+        had done many times before, but that time the stand injured two fans (NBC 6, 2012). Radke&rsquo;s anger over
+        this incident wasn&rsquo;t that the fans missed the stand, but that everyone hated him for it when the people
+        who were injured in the incident publicly forgave Radke, and didn&rsquo;t even blame him for it. In an interview
+        with Rock Feed, Radke exclaims, &ldquo;I&rsquo;ll have people that weren&#39;t even born when I threw a mic
+        stand into the crowd, mad at me. You weren&#39;t even born, bro!&rdquo; (Radke, 2024). His other tipping point
+        was how his criminal past is frequently brought up, specifically with his detainment for possession of brass
+        knuckles and battery charges, leading to his first band kicking him out (Rolling Stone, 2012). Although Radke
+        has stayed out of legal trouble for over eight years, he still has many other unpopular opinions and tendencies,
+        such as fighting with his fans on Twitter or major social media meltdowns. His quick-to-rise anger and easily
+        pushable buttons make his social media posts downright volatile, with no restraint for his fans, lashing out
+        with phrases like &ldquo;Can y&rsquo;all stop being pissed at me so I can release this music video?&rdquo; quite
+        frequently (Radke, 2024). His anger at his fans and critics is rampant throughout &ldquo;Prequel,&rdquo; calling
+        them out and speaking to them directly for large swatches of the song. </span></p>
+    <p class="c5"><span class="c4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As a petty jab at Ronnie
+        Radke&rsquo;s community, the cover for </span><span class="c0">Popular Monster</span><span class="c4">&nbsp;is
+        Radke&rsquo;s mugshot from when he was incarcerated, showing a bit more of his childish behavior towards his
+        supporters. The first song on the album, &quot;Prequel&quot;</span><span class="c0">,</span><span
+        class="c4">&nbsp;begins with a low, resonant upright bass, setting a dark and foreboding tone for Radke to kick
+        off the lyrics in a low chant. He speaks first about how he&rsquo;s trying to become a &ldquo;better
+        human,&rdquo; but he can&rsquo;t because everyone is tearing him down (Radke, 2024). Simultaneously, a priest is
+        shown placing a crown of thorns on Radke&rsquo;s head in the music video, which symbolizes the mockery of his
+        idolization to parallel the Roman soldiers placing a crown of thorns on Jesus. Instead of fighting back against
+        the people who don&#39;t want him to succeed, Radke shifts from trying to change himself, to instead admitting
+        that he&rsquo;s the kind of person they think he is, a &ldquo;</span><span class="c4">cynical</span><span
+        class="c3">, egotistical, unpredictable, harden&#1077;d criminal&rdquo; (Radke, 2024). By admitting his negative
+        qualities, he ditches his public image to give the critics what they want to hear, and in turn, hands him all
+        the leverage he needs to call them out for not admitting how fake they all are. </span></p>
+    <p class="c5 c7"><span class="c4">Radke then begins strengthening his ethos by embracing everything he&rsquo;s done,
+        everything he&rsquo;s gone through, and admits that he&rsquo;d never change any of it, as it all &ldquo;made
+        [him] the person [he is] today&rdquo; (Radke, 2024). During Radke&rsquo;s &lsquo;speech&rsquo;, he&rsquo;s
+        depicted delivering it to a battalion of soldiers in the square below the citadel&rsquo;s tower and ends it with
+        a fist thrown high into the air to reflect his pride in how far he&rsquo;s made it. Radke mentions in his Rock
+        Feed interview that he struggled to rebuild himself after his imprisonment, especially trying to write Falling
+        in Reverse&rsquo;s debut album, </span><span class="c0">The Drug in Me Is You,</span><span class="c3">&nbsp;from
+        his cell, saying it was &ldquo;sort of embarrassing, you know, there&rsquo;s like a bunch of gangsters in there,
+        and I&rsquo;m all like &hellip; singing like an Emo or something&rdquo; (Radke, 2024). Radke&rsquo;s story
+        isn&rsquo;t all sunshine and rainbows, but his hard work and sheer talent cannot and should not be written off
+        because of a few moments in his past. </span></p>
+    <p class="c5"><span class="c3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Radke then enters the second verse
+        almost identically to how he began the first verse, but this time, he ponders the irony of his dreams of
+        everyone admiring him. And with that thought of irony, he twists his words to attack his critics once again, but
+        this time, more directly. He begins to call out to the listener using words like &lsquo;you&rsquo; and
+        &lsquo;y&rsquo;all&rsquo; to add a more personal touch to his words. While singing this, Radke finds himself
+        being followed by hundreds of townsfolk, and they all begin to mimic his movements, comparable to how fans look
+        up to their idols and want to be just like them. He then once again ramps up his vocals with the music, this
+        time with even more intensity, emphasizing his warnings with every beat. He closes the verse with a threat of
+        violence, emboldened by his history of &ldquo;battery with substantial bodily harm,&rdquo; one that encourages
+        anyone trying to stand against him to &ldquo;back the fuck up, get out of [his] face&rdquo; (Las Vegas Weekly,
+        2008; Radke, 2024). Radke&rsquo;s threats to the world are meant to show how fed up he is with how the world is
+        treating him for his past, and that he&rsquo;s not going to take any more of it. </span></p>
+    <p class="c5"><span class="c3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Radke switches his strategy of pathos
+        to a verse of logos, forming logical and thought-provoking situations to force the listener to think
+        introspectively. Entering the third verse, Radke wastes no time jumping straight into it to maintain his
+        momentum from the second verse but chooses to calm the music back down to allow his words of advice to strike
+        the audience harder. He uses the verse as his rallying speech, to whip up his followers into a frenzy to help
+        him on his crusade against his critics. Radke points out the hypocrisy in the current (as of 2024) generations,
+        telling them that &ldquo;[they&#39;re] a slave to labor and [they] praise the fascist / [They] kiss the hand
+        that takes half in taxes&rdquo; to lift the veil from their eyes and show them who they should be angry at
+        (Radke, 2024). During this shot in the music video, the aforementioned townsfolk are all bowing down to a
+        massive statue of Radke, all praising him for trying to break them free from slavery. </span></p>
+    <p class="c5 c7"><span class="c4">Radke then uses the anger the critics are holding against him and redirects it
+        toward the real enemy in his eyes, the corrupt government. He then wraps up the third verse with a few somewhat
+        unsettling lines, such as &ldquo;prepare to die, prepare to burn&rdquo; and &ldquo;all our gods abandoned
+        us,&rdquo; not to scare the crowd away, but to inform them of the sacrifice that is required to stand against
+        the majority and fight against the corruption and the system it created (Radke, 2024). Finally, he ends the
+        verse with </span><span class="c0">&ldquo;</span><span class="c3">Light the match / watch it burn&rdquo; to
+        signify their actions are only a catalyst, and that the downfall will surely follow (Radke, 2024). </span></p>
+    <p class="c5"><span class="c4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+        class="c4">With</span><span class="c4">&nbsp;the symbolic lighting of the match to burn the world</span><span
+        class="c4">,</span><span class="c3">&nbsp;Radke is thrown backward off the citadel tower by the priest and sent
+        tumbling through the air onto a Latin cross in the center of a massive Colosseum, followed by nails to hold his
+        hands and feet to the cross, completing the crucifixion. The crowds of townsfolk that had followed him are
+        depicted booing Radke, reminiscent of how his fans turned on him after he threw a mic stand into the crowd. He
+        then turns to look at the people gathered in the Colosseum, and shoots giant red lasers from his eyes,
+        destroying the Colosseum, and then the heavens above.</span></p>
+    <p class="c5"><span class="c4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the final verse, Radke returns to
+        his tactic of pathos, pulling from his emotional lines and angelic high notes. Radke&rsquo;s tone shifts from
+        rapping to incredibly emotional operatic vocals, along with an instrumental shift from occasional drums and low
+        orchestra to massive double kicks, resounding backing vocals, heavy distortion guitars, and angelic supporting
+        choirs. The lines &ldquo;</span><span class="c0">When everything falls apart,&rdquo; &ldquo;Why have you
+        forsaken me?&rdquo; and &ldquo;Heavy is the crown, you see</span><span class="c3">&rdquo; are repeated
+        throughout, with the first line appearing most frequently (Radke, 2024). The first line refers to how nothing
+        can last forever, that even the greatest empires, the greatest kingdoms, and the greatest leaders all have an
+        end. Radke uses this as a metaphor for how his life fell apart and how he can project that fall onto everyone
+        else. In the second line, he asks the world why they have forsaken him, as they had once praised him. He uses
+        this to show how quickly the world can turn on anyone, after just one action, and void every good thing
+        they&rsquo;ve done. Finally, in the third line, Radke claims his crown is heavy, as the responsibility of being
+        a leader is weighing him down. The weight of being an idol, to please everyone, to be perfect is too much for
+        anyone to maintain, and it will inevitably &ldquo;fall apart,&rdquo; just as it will for anyone (Radke, 2024).
+      </span></p>
+    <p class="c5 c7"><span class="c3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;During the final sequence, Radke is shown floating into the sky, with the white
+        angels from above pulling him upwards while the dark angels from below try to pull him down, representing the
+        pull of both ways of life, and both ways he could be remembered for years to come. Instead of choosing between
+        the good and bad, Radke obliterates all of the angels around him in a monumental shockwave, letting him choose
+        his own path, to pave his own way, and to write his own destiny. Following his obliteration of the angels, a
+        colossus in his likeness begins to crumble, crushing the worshippers, and signifying the end of his time to be
+        idolized, and to instead become who he wants to be. </span></p>
+    <p class="c5 c7"><span class="c4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ronnie Radke&rsquo;s tirade of a song effectively warns the audience of the
+        dangers of blindly following authority, merging with the group mentality, and lacking individuality by using his
+        vocal styles to invoke emotions of anger, sadness, triumph, and fear in the listener, drawing upon the
+        audience&rsquo;s pathos. Furthermore, the accompanying music video captures the pathos to a different level,
+        allowing Radke to successfully convey his emotions and the emotions he wants his audience to feel while watching
+        and listening to his song. </span><span class="c0">&quot;</span><span class="c4">Prequel</span><span
+        class="c0">&quot;</span><span class="c3">&nbsp;works with the rest of the album to frame every emotion on the
+        album into one song and then dive into each emotion in a later song, allowing a deeper and more fluid flow to
+        the album. </span></p>
+        <div style="display:flex;justify-content:center;align-items:center;"><p class="c6"><span class="c4 c12">Works Cited</span></p></div>
+    <p class="c1"><span class="c4 c9">Baltin, S. (2012, April 5). Falling in Reverse Frontman Goes from Jail to Warped
+        Main Stage </span><span class="c0 c9">Rolling Stone</span><span class="c2">.
+        https://www.rollingstone.com/music/music-news/falling-in-reverse-frontman-goes-from-jail-to-warped-main-stage-64753/
+      </span></p>
+    <p class="c1"><span class="c4 c9">Chang, D. (2012, October 2). Rocker Arrested After Throwing Mic Stands Into Crowd
+      </span><span class="c0 c9">NBC 6 South Florida</span><span class="c2">.
+        https://www.nbcmiami.com/news/national-international/singer-arrested-after-throwing-mic-stands-into-crowd/1908454/
+      </span></p>
+    <p class="c1"><span class="c4 c9">Radke, R. (2024). &quot;Prequel&quot; [Recorded by Falling in Reverse]. On
+      </span><span class="c0 c9">Popular Monster</span><span class="c2">&nbsp;[Album]. Epitaph Records.</span></p>
+    <p class="c1"><span class="c2">Rock Feed. (2024, May 7). Ronnie Radke Breaks Down His Most Talked-About
+        Controversies [Video]. YouTube. https://www.youtube.com/watch?v=_PkVaalqL7M&amp;ab_channel=RockFeed</span></p>
+    <p class="c1"><span class="c4 c9">Thompson, A. (2008, Feb 23). [Tragedy] Murder, suicide, music and drugs
+      </span><span class="c0 c9">Las Vegas Weekly</span><span class="c4 c9">.
+        https://lasvegasweekly.com/news/archive/2008/feb/23/tragedy-murder-suicide-music-and-drugs/</span></p>
+  </div>
+</body>
+
+</html>

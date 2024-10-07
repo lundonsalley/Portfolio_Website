@@ -192,6 +192,7 @@
 
 .content{
   position: relative;
+  border-radius: 15px;
   width: auto;
   height: auto;
   margin: 5% 10% 5% 10%;
@@ -210,4 +211,25 @@
   size:auto;
   display:flex;
   justify-content: right;
+}
+
+.text-wrapper {
+  position: relative;
+  border-radius: 15px;
+  width: auto;
+  height: auto;
+  margin: 5% 10% 5% 10%;
+  padding: 2.5%;
+  background-color: rgba(0,0,0,0.8)
+}
+
+.text-wrapper * {
+  text-wrap: pretty;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #d4b7d1;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #ffb7c5;
 }
