@@ -206,7 +206,7 @@
 }
 
 .line{
-  text-wrap:pretty;
+  word-wrap: break-word;
 }
 
 .skip{
