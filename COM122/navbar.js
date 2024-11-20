@@ -7,6 +7,7 @@ $(document).ready(function(){
                     <a href="Rhetorical-Analysis.html">Rhetorical Analysis</a>
                     <a href="Artifact.html">Writing Artifact</a>
                     <a href="Research-Paper.html">Research Paper</a>
+                    <a href="Outside-Artifact.html">Outside Artifact</a>
                 </div>
             </div>
             <a href="about.html">About Me</a>
