@@ -206,7 +206,7 @@
 }
 
 .line{
-  word-wrap: break-word;
+  word-wrap: break-all;
 }
 
 .skip{
@@ -229,7 +229,7 @@
 }
 
 .text-wrapper * {
-  word-wrap: break-word;
+  word-wrap: break-all;
   font-size: 20px;
   line-height: 1.5;
   color: #d4b7d1;
@@ -240,5 +240,5 @@ audio::-webkit-media-controls-panel {
 }
 
 #wrap{
-  word-wrap: break-word;
+  word-wrap: break-all;
 }
