@@ -96,4 +96,5 @@ $(document).ready(function(){
 
 function redir(){
     window.open('https://github.com/lundonsalley/Portfolio_Website', "_blank").focus();
-  }
+}
+
