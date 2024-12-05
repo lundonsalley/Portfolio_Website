@@ -93,3 +93,7 @@ $(document).ready(function(){
     init();
     animate();
 });
+
+function redir(){
+    window.open('https://github.com/lundonsalley/Portfolio_Website', "_blank").focus();
+  }
