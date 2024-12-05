@@ -8,6 +8,7 @@ $(document).ready(function(){
                     <a href="Artifact.html">Writing Artifact</a>
                     <a href="Research-Paper.html">Research Paper</a>
                     <a href="Outside-Artifact.html">Outside Artifact</a>
+                    <a href="Composition-in-Three-Genres.html">Composition in Three Genres</a>
                 </div>
             </div>
             <a href="about.html">About Me</a>

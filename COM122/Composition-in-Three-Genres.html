@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="Composition in Three Genres" content="width=device-width, initial-scale=1">
+    <title>Composition in Three Genres</title>
+    <link rel="icon" type="image/png" href="files\blossom.png">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="files/comp3/slideshow.css">
+    <link rel="docStyle" href="files/docStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="home.js"></script>
+    <script type="text/javascript" src="navbar.js"></script>
+    <script type="text/javascript" src="files/comp3/slides.js"></script>
+</head>
+<html>
+    <body>
+        <canvas id="cherry-blossoms"></canvas>
+        <div class="nav-bar"></div>
+
+        <div class="text-wrapper">
+            <div>
+                
+            </div>
+            <div style="display:flex; justify-content:center; padding:10px;">
+                <h1 class="big">TVC in Simulink Using Simscape Multibody Tutorial</h1>
+            </div>
+            <div class="ytbox">
+                <iframe class="yt" src="https://www.youtube.com/embed/WKzo54bkn50?si=2Souo6xx7p2xoBFp" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <div style="display:flex; justify-content:center; padding:10px;">
+                <h1 class="big">Educational TikToks About TVC</h1>
+            </div>
+
+            <div style="display:flex; justify-content:center; padding:10px;">
+                
+                <div class="slideshow-container">
+                    <div class="mySlides 1">
+                        <div class="numbertext">1 / 5</div>
+                            <video id="vid1" width="500" height="500" controls> <!--add size here-->
+                                <source src="files/comp3/1.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                    </div>
+                    <div class="mySlides 2">
+                        <div class="numbertext">2 / 5</div>
+                        <video id="vid2" width="500" height="500" controls> <!--add size here-->
+                            <source src="files/comp3/2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="mySlides 3">
+                        <div class="numbertext">3 / 5</div>
+                        <video id="vid3" width="500" height="500" controls> <!--add size here-->
+                            <source src="files/comp3/3.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="mySlides 4">
+                        <div class="numbertext">4 / 5</div>
+                        <video id="vid4" width="500" height="500" controls> <!--add size here-->
+                            <source src="files/comp3/4.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="mySlides 5">
+                        <div class="numbertext">5 / 5</div>
+                        <video id="vid5" width="500" height="500" controls> <!--add size here-->
+                            <source src="files/comp3/5.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+            </div>
+            <div style="text-align:center">
+                <span class="dot" onclick="showSlides(1)"></span>
+                <span class="dot" onclick="showSlides(2)"></span>
+                <span class="dot" onclick="showSlides(3)"></span>
+                <span class="dot" onclick="showSlides(4)"></span>
+                <span class="dot" onclick="showSlides(5)"></span>
+            </div>
+
+            <div style="display:flex; justify-content:center; padding:10px;padding-top:20px">
+                <h1 class="big">Mini STEM Article</h1>
+            </div>
+
+            <div style="display:flex; justify-content:center; padding:10px;">Why Thrust Vectoring is Extremely Useful for High Altitude Flights</div>
+            <p class="c5"><span class="c0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rockets generally go pretty high up, but what&rsquo;s stopping them from not going up? 
+                You might be thinking &ldquo;Gravity, duh&rdquo; and yep, you&rsquo;d be right. Unfortunately, gravity doesn&rsquo;t just make it difficult to lift the rocket into space, 
+                it also tries to unbalance it, and turn it sideways into the Lockheed Martin special: a missile. A missile that has people in it and costs billions of dollars. 
+                To put it simply, not an optimal situation. Here&rsquo;s a little home experiment for you to try: grab a long object (such as a broomstick, yardstick, metal pipe, 
+                tungsten rod, guitar, etc) and hold it upright in your hand. Next, adjust the object so only a single point of it is resting on your hand/finger, and try to keep it
+                upright. You should notice how it becomes very difficult to recover the item once it starts going off course, and you can bet that a couple million pound rocket would 
+                love to take a quick nap instead of fighting gravity. </span></p>
+            <p class="c4"><span class="c0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;But luckily, there&rsquo;s a solution to this potentially lethal problem: fins! Fins work wonderfully to help keep the rocket pointed toward the skies instead of the ground. They can be designed to create a controlled roll on the rocket to
+                create a gyroscopic effect, creating even more stability. As with all good things, there are downsides. Fins cause drag, which is something many engineers hate with a 
+                passion, as it prevents a lot of cool things like supersonic cows and massive fuel efficiency for the Toyota Prius. Drag (not talking about drag queens here) is
+                everywhere, but if it can be reduced, it cascades into massive savings; a black friday for engineers so to speak. Another big problem with fins, and all aerodynamic 
+                surfaces for that matter, don&rsquo;t work well without air. Hence the &lsquo;aero&rsquo; part in the name. This makes fins largely ineffective once the air is gone, 
+                which is where many rockets enjoy going to. Fins stop being effective outside of the atmosphere because with no particle flow over the surface, it has nothing to push 
+                against. A similar situation would be leaning against a wall, and then someone is really sanding down the other side until eventually, you can&rsquo;t lean against it 
+                anymore.</span></p>
+            <p class="c4"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This brings us back to the famous &lsquo;large missile pointed in unknown direction&rsquo; problem. Luckily, there&rsquo;s a nifty
+                solution to controlling rockets without the need of aerodynamic surfaces like fins. Thrust vector control is found in nearly all modern rockets for this exact reason.
+                It allows for a more aerodynamic rocket, and can control itself in space without worrying about a premature reentry (not good) and wasting billions of dollars that 
+                could have been spent on making </span><span class="c1">real</span><span>&nbsp;missiles. Thrust vectoring works by moving the nozzle of the rocket engine so it can 
+                tilt in the correct directions. The change of the thrust angle creates a torque on the rocket, which has no relationship with the atmosphere. In fact, it works
+                much better in a vacuum because the air is no longer trying to force the rear of the rocket back in line with its flight path. </span></p>
+
+            <div style="display:flex; justify-content:center; padding:10px;">
+                <h1 class="big">Memo Explaining Rhetorical Choices in the Above Genres</h1>
+            </div>
+
+            <div style="display:flex; justify-content:center; padding:10px;"><p class="c2"><span class="c1">Tutorial</span></p></div>
+            <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This piece was a tutorial on how to set up a thrust vectoring simulation in Mathlab&rsquo;s 
+                SimuLink using SimScape Multibodies. My audience was student engineers and anyone interested in creating simulations using simulink. Since the info is useful for other 
+                simulations that aren&rsquo;t TVC, I had a secondary audience of people trying to learn simulink. First, I covered how to export the file from SolidWorks, converting it 
+                into a usable SimuLink file, which was one of the least documented steps online, and was generally pretty vague. I think including this was effective since I was able to 
+                clearly convey the steps and where to find the missing ones. Next, I covered the creation of the simulink file to begin the simulation. I chose to cover each step in depth, 
+                allowing for viewers to easily replicate what I was doing. I left out some of the details that were only relevant to my specific situation, but I mentioned what I was leaving 
+                out in case it was info a viewer could find useful. Overall, I think this was relatively effective, as I was able to clearly show how to achieve it. I appealed to ethos by 
+                showing my audience that it can be achieved, with proof of the simulation working at the end.</span></p>
+            <div style="display:flex; justify-content:center; padding:10px;"><p class="c2"><span class="c1">Youtube Shorts</span></p></div>
+            <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This piece was an educational series on how thrust vectoring works, the history behind it, 
+                and why it&#39;s used. My audience was Gen Z/Gen Alpha students that have an interest in rockets. Following the Youtube Shorts/TikTok standard conventions of short 
+                form content, I played a video of Minecraft Parkour with many popular meme clips over the screen to increase viewer retention. The overedited nature meant to enhance 
+                the learning experience by making it entertaining, funny, and fast paced. I also included rapidly updating captions that can also take up the viewers attention, if they 
+                want to retain more of the finer details instead of only ingesting the info through memes. I bolstered my pathos by making the audience feel amused and entertained, 
+                which in turn allowed me to educate them about rocket engines. I think these were very effective at conveying surface-level information, which could trigger intrigue for 
+                further research (my research paper, perhaps?). I do believe they lacked some of the deeper and finer details that I would have wished to include, but I felt that 
+                I would be overloading the viewer&rsquo;s attention if I threw too many terms and definitions at them at once. </span></p>
+            <div style="display:flex; justify-content:center; padding:10px;"><p class="c2"><span class="c1">Humor Journal Article</span></p></div>
+            <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This piece was a short article about why fins don&#39;t work at high altitudes, 
+                and why TVC fixes that issue. My audience is engineers and people in the STEM field, as some of the knowledge required for the humor or general information is 
+                easily understood by those with any STEM background. I again used pathos through humor and also used logos by explaining why the fins don&rsquo;t work in relatively 
+                simple terms. I chose to include an experiment for the readers to do as a way to reinforce the learning, and to have a bit of fun. The laid-back tone made the article 
+                feel less like &ldquo;fins bad, use TVC&rdquo; and instead casually explained why TVC has some advantages, while explaining why fins fail during those conditions. The 
+                lack of a strong argumentative tone leans away from pushing the idea upon the reader, but to instead encourage it, with supporting evidence. I also chose to leave out a 
+                counter argument because I felt it would compromise the tone, as I have no reason to defend it. I feel it was effective in educating, but certainly lacked in arguments. 
+                The lack was intentional, but the article could have easily been modified to fit in an counter, which could have bolstered the argument for TVC over fins. </span></p>
+        </div>
+    </body>
+</html>
