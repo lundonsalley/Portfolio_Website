@@ -215,6 +215,7 @@
 }
 
 .line{
+  -webkit-text-wrap: wrap;
   text-wrap: wrap;
 }
 
@@ -229,6 +230,7 @@
 }
 
 .text-wrapper * {
+  -webkit-text-wrap: wrap;
   text-wrap: wrap;
   font-size: 20px;
   line-height: 1.5;
