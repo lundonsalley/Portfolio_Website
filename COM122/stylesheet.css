@@ -205,10 +205,6 @@
   background-color: rgba(54, 54, 54, 0.212); /*delete this*/ 
 }
 
-.line{
-  text-wrap:stable;
-}
-
 .skip{
   position:fixed;
   bottom:10px;
@@ -218,6 +214,10 @@
   justify-content: right;
 }
 
+.line{
+  text-wrap: wrap;
+}
+
 .text-wrapper {
   position: relative;
   border-radius: 15px;
@@ -225,11 +225,11 @@
   height: auto;
   margin: 5% 10% 5% 10%;
   padding: 2.5%;
-  background-color: rgba(0,0,0,0.8)
+  background-color: rgba(0,0,0,0.8);
 }
 
 .text-wrapper * {
-  text-wrap:stable;
+  text-wrap: wrap;
   font-size: 20px;
   line-height: 1.5;
   color: #d4b7d1;
