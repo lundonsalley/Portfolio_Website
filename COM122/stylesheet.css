@@ -215,6 +215,7 @@
 }
 
 .line{
+  -webkit-text-wrap: wrap;
   text-wrap: wrap;
 }
 
@@ -228,7 +229,8 @@
   background-color: rgba(0,0,0,0.8);
 }
 
-.text-wrapper *{
+.text-wrapper * {
+  text-wrap: wrap;
   font-size: 20px;
   line-height: 1.5;
   color: #d4b7d1;
