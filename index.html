@@ -3,9 +3,13 @@
     <meta charset="UTF-8">
     <meta name="Home" content="width=device-width, initial-scale=1">
     <title>Home</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="slideshow.css">
     <link rel="stylesheet" href="homestyle.css">
+    <link rel="icon" type="image/png" href="COM122/files/blossom.png">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="slides.js"></script>
 </head>
 <html>
     <body>
@@ -28,6 +32,38 @@
                 </div>
             </div>
         </div>
-        
+
+        <div style="display:flex; justify-content:center; padding:10px; padding-top:5%;">
+            <div class="slideshow-container">
+                <div class="mySlides 1">
+                    <div style="display:flex; justify-content:center;">
+                        <img src="img/Climbing.jpg" alt="Rock Climbing" style="border-radius:5%;">
+                    </div>
+                        
+                </div>
+                <div class="mySlides 2">
+                    <div style="display:flex; justify-content:center;">
+                        <img src="img/Jumping.jpg" alt="Suit" style="border-radius:5%;">
+                    </div>
+                </div>
+                <div class="mySlides 3">
+                    <div style="display:flex; justify-content:center;">
+                        <img src="img/Suit.jpg" alt="Jumping" style="border-radius:5%;">
+                    </div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+        </div>
+
+        <div class="text-wrapper" style="display:flex; align-items:center; justify-content:center; text-align: center">
+
+            <h1 style="font-size:250%">Hello! I'm Lundon Salley.
+                <br>I'm majoring in Aerospace engineering at Embry-Riddle Aeronautical University in Prescott AZ with a minor in robotics.
+                You can check out what I've been working on recently in my class and project portfolios.
+            </h1>
+            
+        </div>
     </body>
 </html>
