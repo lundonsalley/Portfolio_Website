@@ -233,6 +233,7 @@
   font-size: 20px;
   line-height: 1.5;
   color: #d4b7d1;
+  text-wrap: wrap;
 }
 
 audio::-webkit-media-controls-panel {
